@@ -1,0 +1,14 @@
+@import "base/_variables";
+
+* {
+  box-sizing: border-box;
+  font-family: "MuseoModerno", sans-serif;
+}
+
+.container {
+  min-width: 950px;
+  margin: 0 auto;
+}
+
+@import "blocks/main";
+@import "blocks/header";

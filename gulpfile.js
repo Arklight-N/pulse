@@ -17,7 +17,7 @@ gulp.task("localserver", function () {
 
 gulp.task("styles", function () {
   return gulp
-    .src("src/sass/blocks/*.+(scss|sass)")
+    .src("src/sass/*.+(scss|sass)")
     .pipe(sass({ outputStyle: "compressed" }).on("error", sass.logError))
     .pipe(
       rename({
