@@ -1,0 +1,10 @@
+@import "../base/_variables";
+
+* {
+  box-sizing: border-box;
+  font-family: "MuseoModerno", cursive;
+}
+
+.container {
+  min-width: 950px;
+}
