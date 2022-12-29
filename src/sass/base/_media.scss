@@ -55,6 +55,11 @@
       height: 40px;
       font-size: 14px;
     }
+    &_submit {
+      width: 240px;
+      height: 45px;
+      font-size: 14px;
+    }
   }
   .main {
     min-height: 500px;
@@ -93,6 +98,20 @@
   }
   .title {
     font-size: 22px;
+  }
+  .consultation {
+    padding: 70px 0 60px 0;
+    min-height: 500px;
+    &__descr {
+      font-size: 16px;
+    }
+  }
+  .feed-form {
+    margin-top: 20px;
+    input {
+      height: 40px;
+      width: 240px;
+    }
   }
 }
 
@@ -166,5 +185,15 @@
       margin-top: 30px;
       width: 200px;
     }
+  }
+  .consultation {
+    padding: 30px 0 30px 0;
+    min-height: 300px;
+    &__descr {
+      font-size: 14px;
+    }
+  }
+  .feed-form {
+    align-items: center;
   }
 }
