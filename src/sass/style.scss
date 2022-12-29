@@ -1,4 +1,4 @@
-@import "base/_variables";
+@import "base/variables";
 
 * {
   box-sizing: border-box;
@@ -6,9 +6,18 @@
 }
 
 .container {
-  min-width: 950px;
+  max-width: 950px;
   margin: 0 auto;
+}
+
+.hamburger {
+  visibility: hidden;
 }
 
 @import "blocks/main";
 @import "blocks/header";
+@import "blocks/buttons";
+@import "blocks/title";
+@import "blocks/advantages";
+
+@import "base/media";
